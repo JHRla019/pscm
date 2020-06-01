@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+table {
+	width : 100%;
+	border : 1px solid #444444;
+	border-collapse : collapse;
+	text-align : center;
+	font-size : 12px;
+}
+
+th, td {
+	border : 1px solid #444444;
+	padding : 0.5em 1em 0.5em 1em;
+	white-space: nowrap;
+}
+
+nav, div {
+	min-width : max-content;
+}
+
+.search > form {
+	display : inline;
+}
+
+form > div {
+	float : left;
+}
+
+.search-part {
+	margin-right : 2.5em;
+}
+
+.search-part :not(svg):not([class="num"]){
+	vertical-align : initial;
+	font-family : auto;
+	width : 200px;
+	padding: 0 0.2em;
+}
+
+.search-part input[class="num"] {
+	margin-right: 0em;
+    width: 50px;
+    text-align: right;
+    vertical-align: initial;
+    font-family: auto;
+    padding: 0 0.2em;
+}
+
+#searchingDate {
+	position: relative;
+    z-index: 2;
+    background: transparent;
+    border: 1px solid #afafaf;
+    padding: 1px 3.7px;	
+}
+
+.col-program {
+	display : none;
+}
+
+.standard {
+	background-color : #EAEAEA;
+}
+
+.total {
+	background-color : #D9E5FF;
+}
+
+.data {
+	background-color : #FAF4C0;
+}
+
+.p-right {
+	text-align : right;
+}
+
+.p-left {
+	text-align : left;
+}
+
+

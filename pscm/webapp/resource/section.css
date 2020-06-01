@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#topMenu {
+	height : 50px;
+	width : 100%;
+	margin : 0 0 1.5em;
+	border-bottom : 1px solid #D5D5D5;
+}
+
+#topMenu ul {
+	display: initial;
+}
+
+#topMenu ul li {
+	list-style : none;
+	float : left;
+	line-height : 50px;
+	vertical-align : middle;
+	text-align : center;
+	border-right : 1px solid #D5D5D5 
+}
+
+#topMenu .menu {
+	text-decoration : none;
+	color : #444444;
+	display : block;
+	width : 200px;
+}
+
+#topMenu .menu:hover {
+	background-color: #D5D5D5;
+}
+
+#topMenu .active {
+	background-color: #D5D5D5;
+}
+
